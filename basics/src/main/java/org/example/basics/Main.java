@@ -1,9 +1,13 @@
 package org.example.basics;
 
+import org.example.basics.boxing.Boxing;
+
 public class Main
 {
     public static void main( String[] args )
     {
-        System.out.println(Runtime.version());
+        Boxing boxing = new Boxing();
+
+        boxing.boxingUnboxing(10);
     }
 }
